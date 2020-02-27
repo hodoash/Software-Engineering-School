@@ -1,0 +1,24 @@
+.left, .right{
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .left, .right{
+        height: 50vh;
+    }
+}
+
+.left:hover{
+    background: #E4E6E3;
+}
+
+.right:hover{
+    background: #E4E6E3;
+}
+
+#middle{
+    text-align: center;
+    height: 70vh;
+    /* font-weight: 0em; */
+}
